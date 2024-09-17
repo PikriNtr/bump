@@ -14,14 +14,55 @@
 #       continue
 #   print(". PikriNtr")
 
+i = 111
+for i in range(1, 100):
+    print(i)
+else:
+    print("else:", i)
 
-a = 20
-b = 1200
-i = a
-while i <= b:
-    
-    print(i, ". Fikri", sep="")
-    i += 1
+
+
+#for i in range (5):
+#    print(i)
+#    i += 1
+#else:
+#    print("else:", i)
+
+
+#i = 5
+#while i < 5:
+#    print(i)
+#    i += 1
+#else:
+#    print("else:", i)
+
+
+#awal = 20
+#akhir = 1200
+#i = awal
+#menaik = True
+#penambah = 1
+#if akhir < awal:
+#    menaik = False
+#    penambah = -1
+#jd = max(len(str(awal)), len(str(akhir)))
+#while awal <= i and i <= akhir or awal >= i and i >= akhir:
+#    print(" " * (jd-len(str)))
+
+
+#awal = 20
+#akhir = 1200
+#i = awal
+#menaik = True
+#penambah = 1
+#if akhir < awal:
+#    menaik = False
+#    penambah = -1
+#while awal <= i and i <= akhir or awal >= i and i >= akhir:
+#    
+#    print("%4d. Fikri" % i, sep="")
+#    i += penambah
+
 
 #i = 1
 #while i <= 15:
